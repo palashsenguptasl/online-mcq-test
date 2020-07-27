@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
 /* font-family: 'Poppins', sans-serif; */
 
 body {
@@ -117,23 +116,4 @@ body {
     border-color: #ffc107 !important;
     border: 3px solid;
     margin-bottom: 30px !important;
-}
-
-@media only screen and (max-width: 480px) {
-   h1,
-   .h1 {
-      font-size: 22px;
-   }
-   h2,
-   .h2 {
-      font-size: 20px;
-   }
-   h3,
-   .h3 {
-      font-size: 18px;
-   }
-   .option {
-      font-size: 16px;
-      padding: 6px;
-   }
 }

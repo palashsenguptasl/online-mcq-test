@@ -1,7 +1,7 @@
 {
     "id": 2,
     "name": "CSS3",
-    "description": "C# and .Net Quiz (contains C#, .Net Framework, Linq, etc.)",
+    "description": "CSS3 Quiz",
     "config": {
         "shuffleQuestions": true,
         "showPager": false,
@@ -11,367 +11,325 @@
     "questions": [
         {
             "id": 1010,
-            "name": "Which of the following assemblies can be stored in Global Assembly Cache?",
+            "name": "If we want define style for an unique element, then which css selector will we use ?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Private Assemblies",
-                    "isAnswer": false
+                    "name": "Id",
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Friend Assemblies",
+                    "name": "Text",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Public Assemblies",
+                    "name": "Class",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Shared Assemblies",
-                    "isAnswer": true
+                    "name": "Name",
+                    "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1011,
-            "name": "Which of the following .NET components can be used to remove unused references from the managed heap?",
+            "name": "If we don't want to allow a floating div to the left side of an element, which css property will we use ?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Language Infrastructure",
+                    "name": "Margin",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "CLR",
-                    "isAnswer": false
+                    "name": "Clear",
+                    "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Garbage Collector",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "Class Loader",
+                    "name": "Float",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "CTS",
+                    "name": "Padding",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1012,
-            "name": "Which of the following utilities can be used to compile managed assemblies into processor-specific native code?",
+            "name": "Suppose we want to arragnge five nos. of DIVs so that DIV4 is placed above DIV1. Now, which css property will we use to control the order of stack?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "gacutil",
+                    "name": "d-index",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "ngen",
-                    "isAnswer": true
+                    "name": "s-index",
+                    "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "dumpbin",
+                    "name": "x-index",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "ildasm",
-                    "isAnswer": false
+                    "name": "z-index",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1013,
-            "name": "Which of the following is NOT an Arithmetic operator in C#.NET?",
+            "name": "Can we align a Block element by setting the left and right margins ?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "** (Double Star)",
-                    "isAnswer": true
+                    "name": "Yes, we can",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "+ (Plus)",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1056,
-                    "questionId": 1010,
-                    "name": "/ (Divide)",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "% (Modulo)",
-                    "isAnswer": false
+                    "name": "Not Possible",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1014,
-            "name": "Which of the following statements is correct about an interface used in C#.NET?",
+            "name": "If we want to wrap a block of text around an image, which css property will we use ?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "If a class implements an interface partially, then it should be an abstract class.",
-                    "isAnswer": true
+                    "name": "wrap",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "A class cannot implement an interface partially.",
+                    "name": "push",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "An interface can contain static methods.",
-                    "isAnswer": false
+                    "name": "float",
+                    "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "An interface can contain static data.",
+                    "name": "align",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1015,
-            "name": "What does the term <strong>immutable</strong> means in term of string objects?",
+            "name": "Can we define the text direction via css property ?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "We can modify characters included in the string",
-                    "isAnswer": false
+                    "name": "Yes, we can",
+                    "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "We cannot modify characters contained in the string",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1056,
-                    "questionId": 1010,
-                    "name": "We cannot perform various operation of comparison, inserting, appending etc",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "None of the above",
+                    "name": "No, we can't",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1016,
-            "name": "Which of the following is NOT a .NET Exception class?",
+            "name": "Is it possible to declare font-weight, font-face & font-size by using ONLY ONE css propery ?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Exception",
-                    "isAnswer": false
+                    "name": "Yes, it's possible",
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "StackMemoryException",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1057,
-                    "questionId": 1010,
-                    "name": "DivideByZeroException",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "InvalidOperationException",
+                    "name": "No, not possible",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1017,
-            "name": "In C#.NET if we do not catch the exception thrown at runtime then which of the following will catch it?",
+            "name": " If we want to show an Arrow as cursor, then which value we will use ?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Compiler",
+                    "name": "pointer",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "CLR",
+                    "name": "default",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Linker",
+                    "name": "arrow",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Operating system",
+                    "name": "arr",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1018,
-            "name": "Which of the following statements are correct about delegates?",
+            "name": "If we want to use a nice looking green dotted border around an image, which css property will we use?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Delegates cannot be used to call a static method of a class.",
+                    "name": "border-color",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Delegates cannot be used to call procedures that receive variable number of arguments.",
-                    "isAnswer": true
+                    "name": "border-decoration",
+                    "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "If signatures of two methods are same they can be called through the same delegate object.",
-                    "isAnswer": false
+                    "name": "border-style",
+                    "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Delegates cannot be used to call an instance function. Delegates cannot be used to call an instance subroutine.",
+                    "name": "border-line",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1019,
-            "name": "Which of the following does NOT represent Integer?",
+            "name": "Which of the following properties will we use to display border around a cell without any content ?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Char",
+                    "name": "empty-cell",
                     "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Byte",
+                    "name": "blank-cell",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Short",
+                    "name": "noncontent-cell",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Long",
+                    "name": "void-cell",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         }

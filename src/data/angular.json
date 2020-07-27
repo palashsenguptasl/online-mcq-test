@@ -5,32 +5,32 @@
     "questions": [
         {
             "id": 1010,
-            "name": "In SOLID principle, O stands for:",
+            "name": "Which of the following is correct about TypeScript?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Objects and Variables",
+                    "name": "Angular is based on TypeScript",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Open-Closed Principle",
-                    "isAnswer": true
+                    "name": "This is a superset of JavaScript.",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Object Oriented Programming",
+                    "name": "TypeScript is maintained by Microsoft",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "OutOfMemory Exception",
-                    "isAnswer": false
+                    "name": "All of the above.",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
@@ -41,31 +41,31 @@
         },
         {
             "id": 1011,
-            "name": "Which pattern defines an interface for creating an object, but let the subclasses decide which class to instantiate. It let the instantiation differ to subclasses.",
+            "name": "What is the decorator used for configuring your module class?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Factory Method",
+                    "name": "@NgModule",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Abstract Factory",
+                    "name": "@NgApp",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Builder",
+                    "name": "Both",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Prototype",
+                    "name": "None of above",
                     "isAnswer": false
                 }
             ],
@@ -77,62 +77,26 @@
         },
         {
             "id": 1012,
-            "name": "Which pattern attach the additional responsibilities to an object dynamically.It provides a flexible alternative to subclassing for extending functionality.",
+            "name": "Which angular decorator allows us to define the pipe name that is globally available for use in any template in the across application?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Chain of responsibility",
+                    "name": "pipeName",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Adapter",
+                    "name": "pipeDeco",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Decorator",
+                    "name": "Pipe",
                     "isAnswer": true
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "Composite",
-                    "isAnswer": false
-                }
-            ],
-            "questionType": {
-                "id": 1,
-                "name": "Multiple Choice",
-                "isActive": true
-            }
-        },
-        {
-            "id": 1013,
-            "name": "Singleton pattern is a (according to Gang of Four):",
-            "questionTypeId": 1,
-            "options": [
-                {
-                    "id": 1055,
-                    "questionId": 1010,
-                    "name": "Creational Pattern",
-                    "isAnswer": true
-                },
-                {
-                    "id": 1057,
-                    "questionId": 1010,
-                    "name": "Behavioural Pattern",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1056,
-                    "questionId": 1010,
-                    "name": "Structural Pattern",
-                    "isAnswer": false
                 },
                 {
                     "id": 1058,
@@ -148,33 +112,69 @@
             }
         },
         {
-            "id": 1014,
-            "name": "MVC, MVP and MVVP are related to which layer of software architecture?",
+            "id": 1013,
+            "name": "Which character is used for chaining multiple pipes?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Data Access Layer",
-                    "isAnswer": false
+                    "name": "|",
+                    "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Business/Service Layer",
+                    "name": ":",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Third Party Library",
+                    "name": "Both",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "User Interface",
+                    "name": "None of above",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "RxJS can be used for?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Browser",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Server Side",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Both",
                     "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of above",
+                    "isAnswer": false
                 }
             ],
             "questionType": {
@@ -185,31 +185,31 @@
         },
         {
             "id": 1015,
-            "name": "Which pattern defines a family of algorithms, encapsulate each one, and make them interchangeable. It lets the algorithm vary independently from clients that use it?",
+            "name": "How Observables are Used?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Template method",
+                    "name": "The Reactive Forms Module uses reactive programming and Observables for listening to user input",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Decorator",
+                    "name": " The @output() decorator in a component takes an EventEmitter instance. EventEmitter is a subclass of the RxJS Observable",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Strategy",
+                    "name": "Both",
                     "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Visitor",
+                    "name": "None of above",
                     "isAnswer": false
                 }
             ],
@@ -221,31 +221,31 @@
         },
         {
             "id": 1016,
-            "name": "Which pattern define one to many dependency between objects so that when one object change state, all its dependent are notified and updated automatically?",
+            "name": "What is .subscribe?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Chain of responsibility",
+                    "name": "Streams data in asynchronously",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Observer Pattern",
-                    "isAnswer": true
+                    "name": "Streams data in synchronously",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Event Notification",
-                    "isAnswer": false
+                    "name": "Both",
+                    "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Deligate Pattern",
+                    "name": "None of above",
                     "isAnswer": false
                 }
             ],
@@ -257,31 +257,31 @@
         },
         {
             "id": 1017,
-            "name": "Which pattern ensures a class has only one instance, and provide a global access point to it?",
+            "name": "What does AOT stand for?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Single Class Factory",
-                    "isAnswer": false
+                    "name": "ahead-of-time compilation",
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Singleton",
-                    "isAnswer": true
+                    "name": "Angular Object Templates",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Proxy",
+                    "name": "Both",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Flyweight",
+                    "name": "None of above",
                     "isAnswer": false
                 }
             ],
@@ -293,31 +293,31 @@
         },
         {
             "id": 1018,
-            "name": "Which pattern provides a way to access the elements of an aggregate object sequentially without exposing its underlying representation?",
+            "name": "Which of the following is not a hook application life cycle?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Iterator",
-                    "isAnswer": true
+                    "name": "ngOnChanges",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Visitor",
-                    "isAnswer": false
+                    "name": "ngViewStart",
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Composite",
+                    "name": "ngOnInit",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Command",
+                    "name": "None of above",
                     "isAnswer": false
                 }
             ],
@@ -329,37 +329,37 @@
         },
         {
             "id": 1019,
-            "name": "In SOLID principles 'S' stands for:",
+            "name": "Router is part of which of the following module?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Single Responsibility",
-                    "isAnswer": true
+                    "name": "@angular/core",
+                    "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Session",
+                    "name": "@angular/router",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Both",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Strength",
-                    "isAnswer": false
-                },
-                {
-                    "id": 1058,
-                    "questionId": 1010,
-                    "name": "SqlServer",
+                    "name": "Both",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "None of above",
                 "isActive": true
             }
         }

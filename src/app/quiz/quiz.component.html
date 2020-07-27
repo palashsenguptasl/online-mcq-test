@@ -1,64 +1,63 @@
 <div class="row mb-5 pb-5">
   <div class="col-6">
-    <h3 class="mcq_text_subject">{{quiz.name}} MCQ Test</h3>
+     <h3 class="mcq_text_subject">{{quiz.name}} MCQ Test</h3>
   </div>
   <div class="col-6 text-right">
-    Select Topic:
-    <select [(ngModel)]="quizName" (change)="loadQuiz(quizName)" class="quiz_select">
-      <option *ngFor="let quiz of quizes" [value]="quiz.id">{{quiz.name}}</option>
-    </select>
+     Select Topic:
+     <select [(ngModel)]="quizName" (change)="loadQuiz(quizName)" class="quiz_select">
+     <option *ngFor="let quiz of quizes" [value]="quiz.id">{{quiz.name}}</option>
+     </select>
   </div>
 </div>
 <div class="container">
   <div id="quiz_container">
-    <div *ngIf="mode=='quiz' && quiz">
-      <div *ngFor="let question of filteredQuestions;">
-        <div class="test_time">
-          <div class="badges">Question {{pager.index + 1}} of {{pager.count}}.</div>
-          <div *ngIf="config.duration" class="float-right">Time: {{ellapsedTime}} / {{duration}}</div>
+     <div *ngIf="mode=='quiz' && quiz">
+        <div *ngFor="let question of filteredQuestions;">
+           <div class="test_time">
+              <div class="badges">Question {{pager.index + 1}} of {{pager.count}}.</div>
+              <div *ngIf="config.duration" class="float-right">Time: {{ellapsedTime}} / {{duration}}</div>
+           </div>
+           <h3 class="question_names">{{pager.index + 1}}.
+              <span [innerHTML]="question.name"></span>
+           </h3>
+           <div class="row text-left options">
+              <div class="col-xl-6 col-lg-6 xol-md-6 col-sm-6 col-12" *ngFor="let option of question.options">
+                 <div class="mcq-option">
+                    <label class="font-weight-normal mb-0 question_options" [attr.for]="option.id">
+                    <input id="{{option.id}}" type="checkbox" [(ngModel)]="option.selected" (change)="onSelect(question, option);" /> {{option.name}}
+                    </label>
+                 </div>
+              </div>
+           </div>
         </div>
-        <h3 class="question_names">{{pager.index + 1}}.
-          <span [innerHTML]="question.name"></span>
-        </h3>
-        <div class="row text-left options">
-          <div class="col-xl-6 col-lg-6 xol-md-6 col-sm-6 col-12" *ngFor="let option of question.options">
-            <div class="mcq-option">
-              <label class="font-weight-normal mb-0 question_options" [attr.for]="option.id">
-                <input id="{{option.id}}" type="checkbox" [(ngModel)]="option.selected" (change)="onSelect(question, option);" /> {{option.name}}
-              </label>
-            </div>
-          </div>
+        <div class="text-center">
+           <button class="btn btn-default mcq_btns" *ngIf="config.allowBack" (click)="goTo(pager.index - 1);">Prev</button>
+           <button class="btn btn-default mcq_btns" (click)="goTo(pager.index + 1);">Next</button>
         </div>
-      </div>
-      <div class="text-center">
-        <button class="btn btn-default mcq_btns" *ngIf="config.allowBack" (click)="goTo(pager.index - 1);">Prev</button>
-        <button class="btn btn-default mcq_btns" (click)="goTo(pager.index + 1);">Next</button>
-      </div>
-    </div>
-  
-    <div class="row text-center" *ngIf="mode=='review'">
-      <div class="col-4 cursor-pointer" *ngFor="let question of quiz.questions; let index = index;">
-        <div (click)="goTo(index)" class="p-3 mb-2 {{ isAnswered(question) == 'Answered'? 'bg-info': 'bg-warning' }}">{{index + 1}}. {{ isAnswered(question) }}</div>
-      </div>
-    </div>
-    <div class="result" *ngIf="mode=='result'">
-      <h2 class="text-center mb-5">MCQ Result</h2>
-      <div *ngFor="let question of quiz.questions; let index = index">
-        <div class="result-question">
-          <h5>{{index + 1}}. {{question.name}}</h5>
-          <div class="row">
-            <div class="col-6" *ngFor="let Option of question.options">
-              <input id="{{Option.id}}" type="checkbox" disabled="disabled" [(ngModel)]="Option.selected" /> {{Option.name}}
-            </div>
-          </div>
-          <div class="p-1 m-2 alert {{ isCorrect(question) == 'correct'? 'alert-success': 'alert-danger'}}">Your answer is {{isCorrect(question)}}.</div>
+     </div>
+     <div class="row text-center" *ngIf="mode=='review'">
+        <div class="col-4 cursor-pointer" *ngFor="let question of quiz.questions; let index = index;">
+           <div (click)="goTo(index)" class="p-3 mb-2 {{ isAnswered(question) == 'Answered'? 'bg-info': 'bg-warning' }}">{{index + 1}}. {{ isAnswered(question) }}</div>
         </div>
-      </div>
-    </div>
-    <div *ngIf="mode!='result'" class="special_buttons_wrapper">
-      <button class="btn btn-default mcq_special_btns" (click)="mode = 'quiz'">Quiz</button>
-      <button class="btn btn-default mcq_special_btns" (click)="mode = 'review'">Review</button>
-      <button class="btn btn-default mcq_special_btns" (click)="onSubmit();">Submit Quiz</button>
-    </div>
+     </div>
+     <div class="result" *ngIf="mode=='result'">
+        <h2 class="text-center mb-5">MCQ Result</h2>
+        <div *ngFor="let question of quiz.questions; let index = index">
+           <div class="result-question">
+              <h5>{{index + 1}}. {{question.name}}</h5>
+              <div class="row">
+                 <div class="col-6" *ngFor="let Option of question.options">
+                    <input id="{{Option.id}}" type="checkbox" disabled="disabled" [(ngModel)]="Option.selected" /> {{Option.name}}
+                 </div>
+              </div>
+              <div class="p-1 m-2 alert {{ isCorrect(question) == 'correct'? 'alert-success': 'alert-danger'}}">Your answer is {{isCorrect(question)}}.</div>
+           </div>
+        </div>
+     </div>
+     <div *ngIf="mode!='result'" class="special_buttons_wrapper">
+        <button class="btn btn-default mcq_special_btns" (click)="mode = 'quiz'">Questions</button>
+        <button class="btn btn-default mcq_special_btns" (click)="mode = 'review'">Review</button>
+        <button class="btn btn-default mcq_special_btns" (click)="onSubmit();">Submit Quiz</button>
+     </div>
   </div>
 </div>

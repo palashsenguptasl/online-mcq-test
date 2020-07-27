@@ -1,257 +1,257 @@
 {
     "id": 1,
     "name": "JavaScript",
-    "description": "JavaScript Quiz (Basic Multiple Choice Questions for JavaScript Developers)",
+    "description": "JavaScript Quiz",
     "questions": [
         {
             "id": 1010,
-            "name": "Which HTML tag do we use to put the JavaScript?",
+            "name": "The development environment offers which standard construct for data validation",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "<javascript>",
+                    "name": "Super controlled loop constructs",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "<script>",
-                    "isAnswer": true
+                    "name": "Case sensitivity check",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "<js>",
+                    "name": "Validation constructs",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "None of the above",
-                    "isAnswer": false
+                    "name": "All of the mentioned",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1011,
-            "name": "Which built-in method calls a function for each element in the array?",
+            "name": "The main purpose of a “Live Wire” in NetScape is to",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "while()",
+                    "name": "Create linkage between client side and server side",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "loop",
-                    "isAnswer": false
+                    "name": "Permit server side, JavaScript code, to connect to RDBMS",
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "forEach",
-                    "isAnswer": true
+                    "name": "Support only non relational database",
+                    "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "takeUntil",
+                    "name": "To interpret JavaScript code",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1012,
-            "name": "What is the difference between let and var?",
+            "name": "The script tag must be placed in",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "let has local scope",
+                    "name": "head",
                     "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Both are same",
+                    "name": "head and body",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "var is new data type",
+                    "name": "title and head",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "let consumes more cpu and ram",
+                    "name": "all of the mentioned",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1013,
-            "name": "What is TypeScript?",
+            "name": "JavaScript is ideal to",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "A Language based on Javascript",
-                    "isAnswer": true
+                    "name": "Make computations in HTML simpler",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "script that runs on browser",
-                    "isAnswer": false
+                    "name": "Minimize storage requirements on the web server",
+                    "isAnswer": true
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "A DataType Collection of Javascript",
+                    "name": "Increase the download time for the client",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "None of the above",
+                    "name": "none of the mentioned",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1014,
-            "name": "Which of the following is right syntex for arrow function?",
+            "name": "A JavaScript program developed on a Unix Machine",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "a -> { return b; }",
+                    "name": "will throw errors and exceptions",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "x <= x + y;",
+                    "name": "must be restricted to a Unix Machine only",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "x <- x + 5;",
-                    "isAnswer": false
+                    "name": "will work perfectly well on a Windows Machine",
+                    "isAnswer": true
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "x => x + 5;",
-                    "isAnswer": true
+                    "name": "will be displayed as a JavaScript text on the browser",
+                    "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1015,
-            "name": "Which new ES6 syntax helps with formatting output text - mixing variables with string literals, for example.",
+            "name": "Consider the code snippet given  =  var count = [1,,3]; What is the observation made?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Generator Functions",
-                    "isAnswer": false
+                    "name": "The omitted value takes “undefined”",
+                    "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "Arrow Functions",
+                    "name": "This results in an error",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Template Strings",
-                    "isAnswer": true
+                    "name": "This results in an exception",
+                    "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Set Data Structure",
+                    "name": "None of the mentioned",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1016,
-            "name": "Which ES6 feature helps in merging of a number of changed properties into an existing object?",
+            "name": "Consider the following code snippet =  if (!a[i]) continue;   What is the observation made ?",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "Class syntex",
+                    "name": "Skips the undefined elements",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "Object.assign()",
-                    "isAnswer": true
+                    "name": "Skips the non existent elements",
+                    "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "map data structure",
+                    "name": "Skips the null elements",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "Array.includes(obj);",
-                    "isAnswer": false
+                    "name": "All of the mentioned",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
@@ -287,79 +287,79 @@
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1018,
-            "name": "Which of the following is NOT the method of an Array?",
+            "name": "The method or operator used to identify the array is",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": ".map()",
+                    "name": "isarrayType()",
                     "isAnswer": false
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": ".includes()",
+                    "name": "==",
                     "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": ".subscribe()",
-                    "isAnswer": true
+                    "name": "===",
+                    "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": ".flatMap()",
-                    "isAnswer": false
+                    "name": "typeof",
+                    "isAnswer": true
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         },
         {
             "id": 1019,
-            "name": "What will be the output of the following code: ['a', 'b', 'c'].fill(7, 1, 2);?",
+            "name": "The reduce and reduceRight methods follow a common operation called",
             "questionTypeId": 1,
             "options": [
                 {
                     "id": 1055,
                     "questionId": 1010,
-                    "name": "['a', 7, 'c']",
-                    "isAnswer": true
+                    "name": "filter and fold",
+                    "isAnswer": false
                 },
                 {
                     "id": 1056,
                     "questionId": 1010,
-                    "name": "['a', 7, 7, 'b', 'c']",
-                    "isAnswer": false
+                    "name": "inject and fold",
+                    "isAnswer": true
                 },
                 {
                     "id": 1057,
                     "questionId": 1010,
-                    "name": "['a', 'b', 'c']",
+                    "name": "finger and fold",
                     "isAnswer": false
                 },
                 {
                     "id": 1058,
                     "questionId": 1010,
-                    "name": "['7', 7, 'c']",
+                    "name": "fold",
                     "isAnswer": false
                 }
             ],
             "questionType": {
                 "id": 1,
-                "name": "Multiple Choice",
+                "name": "Multiple Choice Question",
                 "isActive": true
             }
         }
